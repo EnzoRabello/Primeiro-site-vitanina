@@ -1,0 +1,151 @@
+body {
+    overflow-x: hidden;
+    margin: 0 auto !important;
+    padding: 0px !important;
+    background-color: #f7ece1;
+}
+
+.logoVitanina {
+    width: 220px;
+    margin: 0;
+    float: left;
+    position: relative;
+    bottom: 57px;
+    left: 40px;
+    z-index: 2;
+}
+
+
+.menu-principal {
+    position: relative;
+    background-color: #ffffff;
+    margin: 0px auto;
+    height: 70px;
+    padding: 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    z-index: 1;
+}
+
+.blocoCabecalho {
+    width: 100%;
+    height: 470px;
+    background-color: #f3e8e2;
+    margin: 0 auto;
+    padding-top: 5px;
+    position: relative;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    z-index: 0;
+}
+
+.slogan {
+    color: #5894b3;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    text-align: left;
+    margin: 0;
+    position: relative;
+    right: 180px;
+    top: 50px;
+    float: left;
+}
+
+.slogan2 {
+    color: #f5911f;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    position: relative;
+    top: 200px;
+    right: 600px;
+}
+
+.imagem1 {
+    max-width: 500px;
+    max-height: 400px;
+    float: right;
+} 
+
+.landscape {
+    max-width: 600px;
+    max-height: 600px;
+    position: relative;
+    top: 224px;
+    margin: 0;
+    padding: 0px;
+}
+
+.blocoVendas {
+    background-color: #ffcbbb;
+    height: 100%;
+}
+
+.vendas {
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.cardapio {
+    font-family: 'Kumbh Sans', sans-serif;
+    position: relative;
+    top: 30px;
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    padding: 40px;
+    padding-bottom: 60px;
+}
+
+.fotosVitaminas {
+    display: inline-block;
+    max-width: 200px;
+    max-height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container {
+    display: flex;
+    margin: 0px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+  
+.item {
+    display: inline-block;
+    flex-grow: 1;
+    height: 550px;
+    margin: 10px;
+}
+  
+.item + .item {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.textoMotivacao {
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0 auto;
+    background-color: #ffcbbb;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.menuRodape {
+    height: 120px;
+    background-color: #b4acff;
+    margin: 0 auto;
+}
+.textoRodape {
+    text-align: center;
+    margin: 0px;
+    padding-top: 25px;
+    font-family: 'Lato', sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    font-size: 16px;
+}
